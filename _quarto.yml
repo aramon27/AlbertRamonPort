@@ -3,18 +3,27 @@ project:
   output-dir: docs
 
 website:
-  title: "AlbertRamonPort"
+  title: "Albert Ramon Jr"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+   background: primary
+   left:
+      - text: Home 
+        href: index.qmd
+      - text: Bio
+        href: bio.qmd
+      - text: Media Releases
+        href: mediareleases.qmd
+      - text: Resume
+        href: resume.qmd
+   page-footer:
+    left: "Copyright 2023, Albert Ramon"
+
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      dark: slate
     css: styles.css
-    toc: true
-
 editor: visual
+
 

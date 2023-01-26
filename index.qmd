@@ -1,11 +1,23 @@
 ---
-title: "AlbertRamonPort"
+title: "Albert Ramon Jr"
+page-layout: full
+about: 
+  template: jolla
+  image-width: 16em
+  links:
+    - text: LinkedIn
+      href: www.linkedin.com/in/arj2
+    - text: Instagram 
+      href: https://www.instagram.com/jumpman2.0k?hl=en
+    - text: GitHub
+      href: https://github.com/aramon27
+    - text: Email
+      href: mailto:aramon@willamette.edu
 ---
 
-This is a Quarto website.
+#### MBA Candidate: Data/Marketing Concentration
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+#### Music Producer/DJ
+---
 
-```{r}
-1 + 1
-```
+![](images/IMG_8578-02.jpeg)
