@@ -21,8 +21,9 @@ website:
 
 format:
   html:
-    theme: 
-      dark: slate
+    theme:
+      light: lux
+      dark: cyborg
     css: styles.css
 editor: visual
 

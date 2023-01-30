@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Resume PDF\nEducation\nMaster of Business Administration\nExpected May 2023\nAtkinson Graduate School of Management — Willamette University\nHighlighted Coursework: Marketing Research, Data Analytics, Data Science for Strategic Applications, Finance, Communicating with Data\nBachelor of Science, Physics\nHighlighted Coursework: Multivariable Calculus, Python, Computer Science, Data Analysis, Quantum Physics\nExperience\nFedEx Ground, Chino, CA\nLogistics and Transportation Intern\n● Analyzed SLP data analysis and presented local trend data to senior level management by showing distribution optimization and efficiency improvements.\n● Developed a trailer dwell time program using Excel BA that processes and organizes data to assist management in determining the root causes of trailers not making service.\n● Projected the main Hub goals over the fiscal year for 2023 identifying breakdowns in organizational communication and processes through managing interviews, then recommended and implemented changes expediting internal workflow by one week.\nWillamette University\nStudent Research Laboratory Assistant\n● Collaborated with a group of seven to identify, evaluate, and improve on methods for finding galaxy velocity and bulk flow. Identified and evaluated data sets and worked with excel to file, store, and organize the data. \n● Increased the test scores of my students, increasing their knowledge of physics by providing resources such as study guides, in depth figures, and charts\nInformation Technology Consultant\n● Responsible for ensuring smooth operations and protecting and managing valuable information and data.\n● Coordinated and managed the flow of data through Google.\n● Worked with marketing concepts, local demographics, online optimization, fundraising and community partnerships.\n● Used Business Process Model and Notation to plan and manage workflow and deliverables."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Albert Ramon Jr",
@@ -12,5 +19,33 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "bio.html",
+    "href": "bio.html",
+    "title": "Bio",
+    "section": "",
+    "text": "Professional Bio\nSkilled data analyst and marketer with more than 5 years of industry and educational experience in collecting, organizing, interpreting, and disseminating various types of statistical figures. Energetic presenter and confident communicator with the ability to present clearly, efficient, and beneficial for end users. Creative in finding solutions to problems and determining modifications for optimal use of organizational data. Expert in time management and commitment through college athletics and student organizations. I operate with a proactive approach, exceptional work ethic, honed organizational skills, and a fierce determination to meet and exceed all assigned goals and targets.\n\n\nMusic Bio\nAlbert Ramon Jr, aka DJ Inferno, is a djay from Los Angeles, CA and currently living in Salem, OR. His journey as a music enthusiast began at just 12-years-old making beats and djing for family parties. Inspired by Skrillex and Deadmau5, his taste at first geared toward EDM electronic beats. His sound would go through a series of changes, moving into the Hip-Hop/Trap scene in LA producing beats and creating mixes for local artists in his area of Los Angeles. Inferno has performed and opened up for big and small names in LA. A very active member of his local community, Inferno is no stranger to the ups-and-downs of the music scene.  Though he loves playing at parties, patios and private events, his love for music goes beyond the spectrum of mixing tunes. As a producer, DJ, and promoter, he has found plenty of ways to express himself musically within his communities of Los Angeles and Salem."
+  },
+  {
+    "objectID": "resume.html#fedex-ground-chino-ca",
+    "href": "resume.html#fedex-ground-chino-ca",
+    "title": "Albert Ramon Jr",
+    "section": "FedEx Ground, Chino, CA",
+    "text": "FedEx Ground, Chino, CA\n\nLogistics and Transportation Intern\n\n● Analyzed SLP data analysis and presented local trend data to senior level management by showing distribution optimization and efficiency improvements.\n\n\n● Developed a trailer dwell time program using Excel BA that processes and organizes data to assist management in determining the root causes of trailers not making service.\n\n\n● Projected the main Hub goals over the fiscal year for 2023 identifying breakdowns in organizational communication and processes through managing interviews, then recommended and implemented changes expediting internal workflow by one week."
+  },
+  {
+    "objectID": "resume.html#willamette-university",
+    "href": "resume.html#willamette-university",
+    "title": "Albert Ramon Jr",
+    "section": "Willamette University",
+    "text": "Willamette University\n\nStudent Research Laboratory Assistant\n\n● Collaborated with a group of seven to identify, evaluate, and improve on methods for finding galaxy velocity and bulk flow. Identified and evaluated data sets and worked with excel to file, store, and organize the data. \n\n\n● Increased the test scores of my students, increasing their knowledge of physics by providing resources such as study guides, in depth figures, and charts"
+  },
+  {
+    "objectID": "mediareleases.html",
+    "href": "mediareleases.html",
+    "title": "Media Releases",
+    "section": "",
+    "text": "Kazi Magazine\n\nUndrgrnd Magazine"
   }
 ]

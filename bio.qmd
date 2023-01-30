@@ -1,0 +1,17 @@
+---
+title: "Bio"
+editor: visual 
+fig-align: "center"
+fig-cap-location: margin
+---
+
+# Professional Bio
+
+Skilled data analyst and marketer with more than 5 years of industry and educational experience in collecting, organizing, interpreting, and disseminating various types of statistical figures. Energetic presenter and confident communicator with the ability to present clearly, efficient, and beneficial for end users. Creative in finding solutions to problems and determining modifications for optimal use of organizational data. Expert in time management and commitment through college athletics and student organizations. I operate with a proactive approach, exceptional work ethic, honed organizational skills, and a fierce determination to meet and exceed all assigned goals and targets.
+
+# Music Bio
+
+Albert Ramon Jr, aka DJ Inferno, is a djay from Los Angeles, CA and currently living in Salem, OR. His journey as a music enthusiast began at just 12-years-old making beats and djing for family parties. Inspired by Skrillex and Deadmau5, his taste at first geared toward EDM electronic beats. His sound would go through a series of changes, moving into the Hip-Hop/Trap scene in LA producing beats and creating mixes for local artists in his area of Los Angeles. Inferno has performed and opened up for big and small names in LA. A very active member of his local community, Inferno is no stranger to the ups-and-downs of the music scene.  Though he loves playing at parties, patios and private events, his love for music goes beyond the spectrum of mixing tunes. As a producer, DJ, and promoter, he has found plenty of ways to express himself musically within his communities of Los Angeles and Salem.
+
+\
+\
