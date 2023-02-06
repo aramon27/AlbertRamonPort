@@ -2,7 +2,7 @@
 title: "College Sports Budgets: Gender Analysis"
 author: "Albert Ramon Jr"
 date: "2023-05-31"
-categories: [hiphop, code, analysis]
+categories: [sports, code, analysis]
 ---
 
 ## 
