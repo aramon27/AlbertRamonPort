@@ -15,7 +15,7 @@ about:
     - text: Email
       href: mailto:aramon@willamette.edu
 ---
+
 #### MBA Candidate: Data/Marketing Concentration
 
 #### Music Producer/DJ
----
