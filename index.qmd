@@ -6,14 +6,21 @@ about:
   template: solana
   image-width: 15em
   links:
-    - text: LinkedIn
-      href: www.linkedin.com/in/arj2
-    - text: Instagram 
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/arj2/
+    - icon: instagram
+      text: Instagram 
       href: https://www.instagram.com/jumpman2.0k?hl=en
-    - text: GitHub
+    - icon: github
+      text: GitHub
       href: https://github.com/aramon27
-    - text: Email
+    - icon: google
+      text: Email
       href: mailto:aramon@willamette.edu
+    - icon: spotify
+      text: Spotify
+      href: https://open.spotify.com/artist/75r1m8NYCbjbVEsi1xSmkJ?si=_T2YiDv7SHeHxAl-QFgTog
 ---
 
 #### MBA Candidate: Data/Marketing Concentration
