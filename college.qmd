@@ -2,7 +2,7 @@
 title: "College Sports Budgets: Gender Analysis"
 ---
 
-## 
+## ![](images/ncaa-logo-teams-sign.jpg)
 
 ```{r}
 

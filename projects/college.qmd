@@ -5,7 +5,7 @@ date: "2023-05-31"
 categories: [sports, code, analysis]
 ---
 
-## 
+![](images/ncaa-logo-teams-sign.jpg)
 
 ```{r}
 
