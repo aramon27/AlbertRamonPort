@@ -1,0 +1,52 @@
+---
+title: "pellgrant"
+---
+
+This exercise will be about creating tables in R and utilizing the DT and gt libraries and their capabilities for visualizations.
+
+```{r setup, include=FALSE}
+knitr:: opts_chunk$set(warning = FALSE, message = FALSE)
+
+library(DT)
+library(png)
+library(tidyverse)
+library(gt)
+library(gtExtras)
+```
+
+```{r}
+pell <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-08-30/pell.csv')
+```
+
+```{r}
+datatable(pell, filter = "top", caption = htmltools::tags$caption(style = "caption-side: bottom; text-align: center;",
+    htmltools::strong("Pell Grant provided by Tidy Tuesday")), editable = "cell", extensions = c("Scroller",
+    "Buttons"), options = list(deferRender = TRUE, scrollY = 400, scroller = TRUE,
+    dom = "Bfrtip", buttons = c("copy", "csv", "excel", "pdf", "print")))
+```
+
+```{r}
+t1 <- pell%>%
+  head(10)%>%   # Keep only first rows as example
+  gt()%>%
+  # Add title and subtitle
+  tab_header(
+    title = "Pell Grant",
+    # Use markdown syntax with md()
+    subtitle = md("XXX"))%>%
+  tab_style(
+    # Select object to modify
+    locations = cells_title(groups = 'title'),
+    # Specify text style
+    style = list(
+      cell_text(
+        font=google_font(name = 'Nunito'), 
+        size='xx-large',
+        color='darkblue'
+  )))
+```
+
+```{r}
+t1
+
+```

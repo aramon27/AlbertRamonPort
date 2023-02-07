@@ -42,6 +42,13 @@
     "text": "Willamette University Physics Thesis 2022-Albert Ramon Jr"
   },
   {
+    "objectID": "projects/pellgrants.html",
+    "href": "projects/pellgrants.html",
+    "title": "pellgrant",
+    "section": "",
+    "text": "This exercise will be about creating tables in R and utilizing the DT and gt libraries and their capabilities for visualizations.\n\n\nShow the code\npell <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-08-30/pell.csv')\n\n\n\n\nShow the code\ndatatable(pell, filter = \"top\", caption = htmltools::tags$caption(style = \"caption-side: bottom; text-align: center;\",\n    htmltools::strong(\"Pell Grant provided by Tidy Tuesday\")), editable = \"cell\", extensions = c(\"Scroller\",\n    \"Buttons\"), options = list(deferRender = TRUE, scrollY = 400, scroller = TRUE,\n    dom = \"Bfrtip\", buttons = c(\"copy\", \"csv\", \"excel\", \"pdf\", \"print\")))\n\n\n\n\n\n\n\n\n\nShow the code\nt1 <- pell%>%\n  head(10)%>%   # Keep only first rows as example\n  gt()%>%\n  # Add title and subtitle\n  tab_header(\n    title = \"Pell Grant\",\n    # Use markdown syntax with md()\n    subtitle = md(\"XXX\"))%>%\n  tab_style(\n    # Select object to modify\n    locations = cells_title(groups = 'title'),\n    # Specify text style\n    style = list(\n      cell_text(\n        font=google_font(name = 'Nunito'), \n        size='xx-large',\n        color='darkblue'\n  )))\n\n\n\n\nShow the code\nt1\n\n\n\n\n\n\n  \n    \n      Pell Grant\n    \n    \n      XXX\n    \n  \n  \n    \n      STATE\n      AWARD\n      RECIPIENT\n      NAME\n      SESSION\n      YEAR\n    \n  \n  \n    AK\n197232.9\n109\nAlaska Pacific University\n1999-00\n1999\n    AK\n133148.0\n69\nAlaska Vocational Technical Center\n1999-00\n1999\n    AK\n107287.0\n72\nSheldon Jackson College\n1999-00\n1999\n    AK\n3425148.8\n1920\nUniversity of Alaska - Anchorage\n1999-00\n1999\n    AK\n2441864.0\n1256\nUniversity of Alaska at Fairbanks\n1999-00\n1999\n    AK\n353170.0\n221\nUniversity of Alaska at Southeast\n1999-00\n1999\n    AL\n5520921.1\n2369\nAlabama Agricultural & Mechanical University\n1999-00\n1999\n    AL\n1548659.2\n837\nAlabama Southern Community College\n1999-00\n1999\n    AL\n7164037.3\n3236\nAlabama State University\n1999-00\n1999\n    AL\n1514341.0\n854\nAthens State University\n1999-00\n1999"
+  },
+  {
     "objectID": "projects/radio.html#intro",
     "href": "projects/radio.html#intro",
     "title": "Hip Hop Song Rating Data from BBC Music Analysis",
