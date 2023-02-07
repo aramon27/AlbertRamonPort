@@ -2,12 +2,10 @@
 title: "Media Releases"
 ---
 
-![](images/IMG_0292.jpeg)
+{{< video https://www.youtube.com/watch?v=GO4QKpyaadI&t=35s >}}
 
-[Kazi Magazine](https://kazimagazine.com/music/get-ready-for-infernos-newest-single-valley/ "Kazi Magazine")
+{{< video https://www.youtube.com/watch?v=V-QKfTZAC1Q&t=1s >}}
 
-![](images/IMG_8827.png)
+[![Kazi Magazine Article](images/IMG_0292-01.jpeg)](https://kazimagazine.com/music/get-ready-for-infernos-newest-single-valley/)
 
-[Undrgrnd Magazine](https://undrgrndmag.com/article-10722-dj-inferno?fbclid=PAAaZPTXdNL6I3OlEVUodIu9gZ-pzFM_D4-qNByen9Bq31RNYL-P6C_XDbG_s)
-
-[Mask Off Media Interview](https://www.youtube.com/watch?v=V-QKfTZAC1Q&t=1s)
+[![Undrgrnd Magazine Article](images/IMG_8827-02.png)](https://undrgrndmag.com/article-10722-dj-inferno)
