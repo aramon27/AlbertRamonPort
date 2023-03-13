@@ -1,0 +1,19 @@
+---
+title: "WordDocPort"
+format: docx
+---
+
+```{r}
+library(officer)
+
+# create a new Word document
+doc <- read_docx()
+
+template_path <- "wordtemp1.docx"
+
+# add some text to the document
+doc <- body_add_par(doc, "This is a test")
+
+# save the document
+print(doc, target = "my_word_document.docx")
+```

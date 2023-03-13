@@ -1,0 +1,52 @@
+---
+title: "Big Tech Stock Prices"
+author: "Albert Ramon Jr"
+output: 
+  html_document:
+    self_contained: true
+params:
+  ticker: "F"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(viridis)
+library(RColorBrewer)
+library(praise)
+```
+
+## The Data
+
+```{r}
+prices <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-02-07/big_tech_stock_prices.csv')
+companies <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-02-07/big_tech_companies.csv')
+```
+
+## Stock Prices Over Time
+
+Wanted to look at three companies that are of interest of myself. I will look at the stock price over time of Intel, Apple, and Netflix.
+
+```{r}
+prices %>%
+  filter(stock_symbol %in% c("INTC", "AAPL", "NFLX")) %>%
+  ggplot(aes(x = date, y = open, color = stock_symbol)) +
+  #geom_point(size = 0.5) +
+  geom_line() + 
+  geom_vline(xintercept = as.Date("2020-10-01")) +
+  annotate("rect", xmin = as.Date("2020-03-13"), xmax = as.Date("2021-9-01"), ymin = 0, ymax = 700,
+           alpha = .7,fill = "grey") +
+  #scale_color_viridis(discrete = TRUE) +
+  #scale_color_brewer(palette = "Dark2") +
+  scale_color_manual(values = c("red", "blue", "purple"))
+```
+
+```{r}
+prices %>%
+  filter(stock_symbol %in% c("AAPL")) %>%
+  ggplot(aes(x = date)) + 
+  geom_ribbon(aes(ymin=low, 
+                 ymax=high), color = "black") + 
+  geom_line(aes(y = close), color = "white", size = .1) +
+  xlim(c(as.Date("2022-01-01"), as.Date("2022-12-01")))
+```

@@ -1,0 +1,19 @@
+---
+title: "scatterplot"
+---
+
+```{r}
+library(knitr)
+opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+x <- 1:10
+a <- 2
+b <- 3
+```
+
+```{r}
+y <- a*x + b
+plot(x, y, main = "Scatterplot of x and y", xlab = "x", ylab = "y")
+```
